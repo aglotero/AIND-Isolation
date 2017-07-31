@@ -48,6 +48,7 @@ To reduce the variability of the test due to random initializations, I increase 
 
 
 | Match |   Opponent   |AB_Improved | AB_Custom  |AB_Custom_2 |AB_Custom_3 |
+|       |              | Won / Lost | Won / Lost | Won / Lost | Won / Lost |
 |-------|--------------|------------|------------|------------|------------|
 |    1  |    Random    | 91  /   9  | 90  /  10  | 94  /   6  | 88  /  12  |
 |    2  |    MM_Open   | 66  /  34  | 82  /  18  | 73  /  27  | 66  /  34  |
@@ -56,7 +57,6 @@ To reduce the variability of the test due to random initializations, I increase 
 |    5  |    AB_Open   | 40  /  60  | 49  /  51  | 44  /  56  | 44  /  56  |
 |    6  |   AB_Center  | 54  /  46  | 60  /  40  | 48  /  52  | 38  /  62  |
 |    7  |  AB_Improved | 52  /  48  | 49  /  51  | 44  /  56  | 33  /  67  |
-|-------|--------------|------------|------------|------------|------------|
 |       |    Win Rate  |    66.9%   |   69.6%    |    65.3%   |    58.9%   |
 
 
