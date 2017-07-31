@@ -87,8 +87,10 @@ To reduce the variability of the test due to random initializations, I increase 
 
 
 
-The `AB_Improved` function performs better than `AB_Improved` even being the simplest heuristic.
+The `AB_Improved` function performs better than each heuristic alone.
 
-For outperform `AB_Improved` several times we must use a mix of theses heuristics, we can start with the `AB_Custom` 
-that is a simple an chap heuristic to compute, then use `AB_Custom_2` to search for boards with large partitions to
-the player.
+To outperform `AB_Improved` I believe that a mix of heuristics must be created, varying the heuristic as the game goes on.
+
+For example, `AB_Custom` at the beginning of the game can be a good start as the board is full of spaces, after a certain
+threshold of board occupation we can use `AB_Custom_2` as the search of partitions have more chance to find some partition
+in less time.
