@@ -94,3 +94,10 @@ To outperform `AB_Improved` I believe that a mix of heuristics must be created, 
 For example, `AB_Custom` at the beginning of the game can be a good start as the board is full of spaces, after a certain
 threshold of board occupation we can use `AB_Custom_2` as the search of partitions have more chance to find some partition
 in less time.
+
+## Which evaluation function should be used ?
+
+Given the data, `AB_Custom` gives the best scores, even though we does not consistently beat `AB_Improved`.
+
+This is a good evaluation function due to the fact to be cheap to compute, so we avoid timeouts searching deepening on
+game tree, though we always got a score above 67% in thw tree runs.
